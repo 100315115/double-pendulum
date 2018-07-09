@@ -1,2 +1,2 @@
 # double-pendulum
-Numerical simulations of the motion of a double pendulum.
+Scripts done fot the study of the double pendulum motion.
