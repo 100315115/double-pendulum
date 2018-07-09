@@ -70,19 +70,20 @@ theta_2_array = array([i[1] for i in sol])
 
 
 #First-rod plots---------------------------------------------------------------
-x = l_1*sin(theta_1_array)
-y = l_1*-1*cos(theta_1_array)
+x = l_1*sin(theta_1_array) #x positions of the 1st mass
+y = l_1*-1*cos(theta_1_array) #y positions of the 1st mass
 
+#x vs y 
 setInfo('$x$ [m]','$y$ [m]','First rod')
 plot(x,y)
 show()
 
-
+#time vs x
 setInfo('time [s]','$x$ [m]','First rod')
 plot(time,x)
 show()
 
-
+#time vs y
 setInfo('time [s]','$y$ [m]','First rod')
 plot(time,y)
 show()
@@ -90,34 +91,20 @@ show()
 
 
 #Second-rod plots--------------------------------------------------------------
-x = (l_1*sin(theta_1_array))+(l_2*sin(theta_2_array))
-y = (l_1*-1*cos(theta_1_array))+(l_2*-1*cos(theta_2_array))
+x = (l_1*sin(theta_1_array))+(l_2*sin(theta_2_array))#x positions 2nd mass
+y = (l_1*-1*cos(theta_1_array))+(l_2*-1*cos(theta_2_array))#y positions 2nd mass
 
+#x vs y
 setInfo('$x$ [m]','$y$ [m]','Second rod')
 plot(x,y)
 show()
 
-
+#time vs x
 setInfo('$time$ [s]','$x$ [m]','Second rod')
 plot(time,x)
 show()
 
-
+#time vs y
 setInfo('$time$ [s]','$y$ [m]','Second rod')
 plot(time,y)
 show()
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                                    
-                                        
-
-
-
-
-
